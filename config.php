@@ -3,7 +3,7 @@
 $servername = "My Server";
 $topplayers = 10;
 $showuuid = 0;
-
+$homelink = "http://legendeffects.co.uk";
 
 /* MYSQL CONFIGURATION */
 $ip = "localhost";

@@ -1,3 +1,6 @@
+<?php include 'config.php';?>
+
+
 <nav class="navbar navbar-default">
 	<div class="container">
 		<div class="navbar-header">
@@ -9,7 +12,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="navcol">
 			<ul class="nav navbar-nav">
-				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="<?php echo $homelink?>"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 				<li><a href="index.php"><i class="fa fa-server" aria-hidden="true"></i> Stats</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
