@@ -1,6 +1,10 @@
 # ProPractice-Web
 Web GUI for ProPractice
 
+# Screenshots
+http://i.imgur.com/IF90BpA.png
+http://i.imgur.com/omiw4cw.png
+
 # Needed:
 [ProPractice](https://www.spigotmc.org/resources/propractice-4-mysql-queueing-scoreboard-builduhc-combo-parties-party-events.27303/)
 <br />
