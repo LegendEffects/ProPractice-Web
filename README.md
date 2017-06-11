@@ -13,7 +13,7 @@ Web GUI for ProPractice
 # Screenshots
 ![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Leaderboard.png)
 <br />
-![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Lookup.png)
+![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/lookup.png)
 
 # Needed:
 [ProPractice](https://www.spigotmc.org/resources/propractice-4-mysql-queueing-scoreboard-builduhc-combo-parties-party-events.27303/)
