@@ -11,6 +11,6 @@ $user = "root";
 $password = "";
 $database = "propractice";
 
-$table = "propracticedata";
+$table = "ProPracticeData";
 
 $debug = 0;
