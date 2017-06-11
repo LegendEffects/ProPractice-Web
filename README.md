@@ -3,6 +3,7 @@ Web GUI for ProPractice
 
 # Screenshots
 http://i.imgur.com/IF90BpA.png
+<br />
 http://i.imgur.com/omiw4cw.png
 
 # Needed:
