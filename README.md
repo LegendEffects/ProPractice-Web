@@ -1,10 +1,19 @@
 # ProPractice-Web
 Web GUI for ProPractice
+![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Main.png)
+
+![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Feature.png)
+
+• Leaderboards
+• Player Lookup
+• Modern
+• Bootstrap
+
 
 # Screenshots
-http://i.imgur.com/IF90BpA.png
+![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Leaderboard.png)
 <br />
-http://i.imgur.com/omiw4cw.png
+![Banner](https://raw.githubusercontent.com/LegendEffects/ProPractice-Web/additions/Lookup.png)
 
 # Needed:
 [ProPractice](https://www.spigotmc.org/resources/propractice-4-mysql-queueing-scoreboard-builduhc-combo-parties-party-events.27303/)
