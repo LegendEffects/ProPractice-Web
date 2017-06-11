@@ -1,6 +1,6 @@
 <?php
 
-$servername = "Wolf PVP";
+$servername = "My Server";
 $topplayers = 10;
 $showuuid = 0;
 
