@@ -12,7 +12,8 @@ html, body {
 	float: left;
 }
 .well {
-  border-bottom: 5px solid #f45642;
+  background: #fff;
+  border-bottom: 3px solid #31A6E0;
 }
 
 /* Navbar */
@@ -24,19 +25,26 @@ html, body {
   box-shadow: none;
 }
 .navbar {
+  height: 45px;
+  background: #31A6E0;
   border-top: 0px !important;
   box-shadow: none;
   border-radius: 0 !important;
-  font-size: 20px;
-  padding-top: 10px;
-  padding-left: 50px;
   padding-bottom: 10px;
   border-right: 0px;
   border-left: 0px;
   margin: 0px;
-  border-bottom: 5px solid #f45642;
 }
 
+.navbar .nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar li ul a:hover, .navbar li ul li:hover {
+  color: #55C7FF;
+
+}
 
 .top-player {
   margin-top: 50px;
@@ -55,3 +63,8 @@ html, body {
 .info {
   padding-right: 10px;
 }
+
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }

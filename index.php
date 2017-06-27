@@ -11,9 +11,12 @@ if(!$con) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $servername." Stats";?></title>
+    <title><?php echo $servername." | Stats";?></title>
 
     <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -61,7 +64,7 @@ if(!$con) {
                                     $num++;?>
                                     <tr>
                                         <td><?php echo $num;?>.</td>
-                                        <td><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></td>
+                                        <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></a></td>
                                         <td><?php echo $name;?></td>
                                         <td><?php echo $rWins;?></td>
                                         <td><?php echo $uWins;?></td>
@@ -73,7 +76,7 @@ if(!$con) {
                                 <tr>
                                     <td>NONE</td>
                                     <td>NONE</td>
-                                    <td><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></td>
+                                    <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></a></td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
@@ -95,7 +98,7 @@ if(!$con) {
                                     $num++;?>
                                     <tr>
                                         <td><?php echo $num;?>.</td>
-                                        <td><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></td>
+                                        <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></a></td>
                                         <td><?php echo $name;?></td>
                                         <td><?php echo $rWins;?></td>
                                         <td><?php echo $uWins;?></td>
@@ -106,7 +109,7 @@ if(!$con) {
                             } else {?>
                                 <tr>
                                     <td>NONE</td>
-                                    <td><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></td>
+                                    <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></a></td>
                                     <td>NONE</td>
                                     <td>0</td>
                                     <td>0</td>
@@ -129,7 +132,7 @@ if(!$con) {
                                     $num++;?>
                                     <tr>
                                         <td><?php echo $num;?>.</td>
-                                        <td><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></td>
+                                        <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></a></td>
                                         <td><?php echo $name;?></td>
                                         <td><?php echo $rWins;?></td>
                                         <td><?php echo $uWins;?></td>
@@ -163,7 +166,7 @@ if(!$con) {
                                     $num++;?>
                                     <tr>
                                         <td><?php echo $num;?>.</td>
-                                        <td><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></td>
+                                        <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/<?php echo $uuid;?>" class="img-responsive"></a></td>
                                         <td><?php echo $name;?></td>
                                         <td><?php echo $rWins;?></td>
                                         <td><?php echo $uWins;?></td>
@@ -174,7 +177,7 @@ if(!$con) {
                             } else {?>
                                 <tr>
                                     <td>NONE</td>
-                                    <td><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></td>
+                                    <td><a href="/players.php?u=<?php echo $name;?>"><img src="https://crafatar.com/renders/head/f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2" class="img-responsive"></a></td>
                                     <td>NONE</td>
                                     <td>0</td>
                                     <td>0</td>
@@ -191,12 +194,12 @@ if(!$con) {
         </div>
         <div class="col-md-3">
             <div class="well text-center">
-              <h1 class="text-center"><h3>Sort By:</h3></h1>
+              <h1 class="text-center">Sort By:</h1>
             </div>
             <div class="list-group">
+                <a href="?sort=gElo" class="list-group-item"><i class="fa fa-arrow-right" aria-hidden="true"></i> Global ELO</a>
                 <a href="?sort=rWins" class="list-group-item"><i class="fa fa-arrow-right" aria-hidden="true"></i> Ranked Wins</a>
                 <a href="?sort=uWins" class="list-group-item"><i class="fa fa-arrow-right" aria-hidden="true"></i> Unranked Wins</a>
-                <a href="?sort=gElo" class="list-group-item"><i class="fa fa-arrow-right" aria-hidden="true"></i> Global ELO</a>
             </div>
         </div>
     </div>

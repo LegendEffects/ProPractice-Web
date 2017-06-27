@@ -1,9 +1,9 @@
 <?php
 
-$servername = "My Server";
+$servername = "Wolf PVP";
 $topplayers = 10;
 $showuuid = 0;
-$homelink = "http://legendeffects.co.uk";
+$homelink = "http://example.com";
 
 /* MYSQL CONFIGURATION */
 $ip = "localhost";
